@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActCadLivros">
+    <item
+        android:id="@+id/menu_acao1"
+        android:orderInCategory="100"
+        android:title="@string/lbl_salvar"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_acao2"
+        android:orderInCategory="100"
+        android:title="@string/lbl_excluir"
+        app:showAsAction="always" android:visible="false"/>
+</menu>
